@@ -48,6 +48,7 @@
             box-sizing: border-box;
             display: block;
             color: black;
+            cursor: pointer;
             
         }
 
@@ -69,29 +70,13 @@
         #lib-header {
             text-align: center;
         }
-
-        footer {
-            background-color: #134e4a;
-            padding: 2rem 1rem;
-            text-align: center;
-            color: white;
-            border-top-right-radius: 1rem;
-            border-bottom-left-radius: 1rem;
-            border-top-left-radius: 1rem;
-            border-bottom-right-radius: 1rem;
-           }
-
-        .footer .footer-header {
-             font-size: large;
-             font-weight: bold;
-          }
-
+        
     </style>
 </head>
 
 <body>
     <h1> Minions App</h1>
-    
+
     <textarea id="txt-input"
     placeholder="Put your sentence in English here and we will convert it to banana"></textarea>
    
@@ -99,11 +84,8 @@
 
     <button id="btn-translate">Translate</button>
 
-
-
     <div id="lib-header">Output will come here 👇</div>
 
-    
     <div id="output"></div>
 
     

@@ -2,6 +2,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
+var footer = document.querySelector("footer");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
@@ -30,11 +31,12 @@ function clickHandler() {
 
 btnTranslate.addEventListener("click", clickHandler)
 
-        <footer class="footer">
+        <footer class="footer;">
         <div 
-        class="footer-header">About
+        class="footer-header;">About
         Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
         </div>
+        </footer>
 
 
        
