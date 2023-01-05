@@ -6,12 +6,12 @@ body {
     margin: 0;
     font-style: italic;
     font-family: cursive;
-    color: #0891b2;
+    background-color: #71717a;
 }
 
 textarea {
             width: 80%;
-            height: 10vh;
+            height: 20vh;
             display: block;
             margin: auto;
             padding: 1rem;
@@ -25,9 +25,10 @@ textarea {
             border: 1px solid #0891b2;
         }
 
+
         #output {
             border: 1px solid #0891b2;
-            height: 10vh;
+            height: 20vh;
             width: 80%;
             margin: auto;
             padding: 2rem;
@@ -43,15 +44,15 @@ textarea {
         }
 
         #btn-translate {
-            border: 1px solid #0891b2;
+            border: 1px solid #27272a;
             width: 10%;
             margin: auto;
             padding-top: 1rem;
-            background-color: #9bd5c9;
+            background-color: #1f2937;
             font-size: 1.5rem;
             box-sizing: border-box;
             display: block;
-            color: black;
+            color: white;
             cursor: pointer;
             border-style: solid;
             border-radius: 1rem;
@@ -75,7 +76,7 @@ footer {
     bottom: 0%;
     width: 100%;
     padding: 1rem 0rem;
-    background-color: #0891b2;
+    background-color: #374151;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -84,7 +85,8 @@ footer {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: white;
+    color: black;
+    height: 20vh;
 }
 
 
